@@ -44,7 +44,7 @@
       .nav {
         height: 100vh;
         position: fixed;
-        top: 0;
+        top: 2;
         right: -60vw;
         z-index: 1500;
         opacity: 0;
@@ -55,7 +55,7 @@
       .list {
         position: absolute;
         top: 45%;
-        left: 50%;
+        left: 45%;
         transform: translate(-50%, -50%);
         list-style: none;
         text-align: center;
@@ -154,6 +154,10 @@
         top: 0;
         transform: rotate(-135deg);
       }
+
+      .logoburger{
+        width: 100%;
+      }
     /* menu burger fin */  
 
     .header {
@@ -166,14 +170,24 @@
 
     .photo {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-content: center;
         width: 70%;
-        margin-top: 45px;
+        margin-bottom: 10px;
+        height: 180px;
     }
 
     .logo {
-        width: 200px;
+        width: 150px;
+        margin-bottom: 15px;
+    }
+
+    .barbeer {
+      text-align: end;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 30px;
+      text-shadow: rgb(82, 81, 81) 5px 5px 8px;
     }
 
     .trait {
@@ -192,6 +206,14 @@
 
     .presentation {
         margin: 5%;
+    }
+
+    h1{
+      font-family: 'Oooh Baby', cursive;
+    }
+
+    h2{
+      font-family: 'Oooh Baby', cursive;
     }
 
     .bloc-image1 {
@@ -214,27 +236,52 @@
         color: darkgoldenrod;
     }
 
+    /* footer */
+
     .footer {
-        border: 1px black solid;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 8px;
+        background-color: rgb(243, 243, 243);
+        border: 1px grey solid;
+        box-shadow: 4px 4px 8px grey;
+        
     }
 
     .adress {
-        border: 1px black solid;
         list-style-type: none;
+        border: 1px rgb(241, 24, 24) solid;
+        display: flex;
+        flex-direction: column;
     }
 
     .name {
-        border: 1px black solid;
-        
+        font-family: 'Oooh Baby', cursive;
+        border: 1px rgb(24, 241, 57) solid;
     }
 
     .contact {
         border: 1px black solid;
         display: flex;
+        width: 80%;
+        justify-content: center;
         align-items: center;
     }
+
+    .contact a{
+      border: 1px rgb(59, 59, 59);
+      padding: 2px;
+      background-color: rgb(59, 59, 59);
+      color: white;
+      padding: 5px;
+      border-radius: 8px;
+      box-shadow: 5px 6px 13px rgb(59, 59, 59);
+    }
+
+    /* footer */
 }
 
 
