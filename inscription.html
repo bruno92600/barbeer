@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./css/contact.css" rel="stylesheet" />
-    <title>BarBeer Shop 🍺 (nous contactez)</title>
+    <link href="./css/inscription.css" rel="stylesheet" />
+    <title>BarBeer Shop 🍺 (Inscription)</title>
 </head>
 <body>
 
@@ -42,6 +42,7 @@
               </li>
               <li class="item"><a href="/inscription.html" class="link"> Inscription </a></li>
               <li class="item"><a href="/connexion.html" class="link"> Connexion </a></li>
+              <li class="item"><a href="/contact.html" class="link"> Nous contactez </a></li>
               <li><img class="logoburger" src="./images/logo6.png"></li>
             </ul>
           </nav>
@@ -51,7 +52,23 @@
       <div class="trait"></div>
 
       <main class="main2">
-        <h1 class="titre2">Nos soins Ayurvédiques</h1>
+        <h1 class="titre2">Inscrivez-vous !</h1>
+        <div class="formulaire">
+          <h2>Renseignez les champs ci-dessous :</h2>
+          <div class="remplir">
+            <form action="" method="post">
+              <div class="nom">
+                <input type="text" class="nom" name="nom" placeholder="Nom..." required>
+                <input type="text" class="nom" name="nom" placeholder="Prénom..." required>
+                <input type="email" class="nom" name="nom" placeholder="Votre email..." required>
+                <input type="email" class="nom" name="nom" placeholder="Confirmer l'adresse mail..." required>
+                <input type="password" class="nom" name="nom" placeholder="Créer votre mot de passe..." minlength="8" required>
+                <input type="password" class="nom" name="nom" placeholder="Confirmer votre mot de passe" minlength="8" required>
+              </div>
+              <input class="bouton" type="submit" value="Valider">
+            </form>
+          </div>
+        </div>
       </main>
   
       <div class="trait1"></div>
@@ -62,14 +79,16 @@
           <li class="name">3 rue du boeuf</li>
           <li class="name">69000</li>
           <li class="name">Lyon</li>
+          <nav class="contact">
+            <li class="name"><a href="mailto:pascoal.goncalves.bruno@gmail.com">email</a></li>
+          </nav>
+          <nav class="contact">
           <li class="name"><a href="tel:+0000000000">Tel : 0000000000</a></li>
-        </ul>
-        <nav class="contact">
-          <a href="mailto:pascoal.goncalves.bruno@gmail.com">Nous contactez</a>
         </nav>
-        <div class="boutonrdv">
-            <a href="/priserdv.html" class=""> Prendre RDV </a>
-          </div>
+        <nav class="contact">
+        <li class="name"><a href="/priserdv.html" class=""> Prendre RDV </a></li>
+      </nav>
+        </ul>
       </footer>
     
 </body>
