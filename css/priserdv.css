@@ -192,6 +192,52 @@
         opacity: 0.3;
         margin-left: 15%;
         margin-bottom: 3%;
+        margin-top: 15px;
+     }
+
+     .prestation {
+      
+      margin-top: 10px;
+      width: 100%;
+     }
+
+     .choix {
+      
+      font-size: 16px;
+      font-weight: 700;
+      margin-left: 10px;
+     }
+
+     #presta {
+      
+      margin-top: 10px;
+      margin-left: 10px;
+     }
+
+     .moment {
+      margin-left: 10px;
+     }
+
+     .trait2 {
+        border: 0.5px grey solid;
+        width: 85%;
+        opacity: 0.3;
+        margin-right: 15%;
+        margin-bottom: 15px;
+       margin-top: 2%;
+     }
+
+     .valid {
+      display: flex;
+      justify-content: center;
+     }
+
+     .valider {
+      border: 1px black solid;
+      padding: 10px;
+      border-radius: 15px;
+      background-color: black;
+      color: white;
      }
 
      /* footer */

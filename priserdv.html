@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./css/priserdv.css" rel="stylesheet" />
+    <link href="./css/calendrier.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
     <title>BarBeer Shop 🍺 (nous contactez)</title>
 </head>
 <body>
@@ -52,27 +54,53 @@
 
       <main class="main2">
         <h1 class="titre2">Prenez rendez-vous !</h1>
-        <div class="presta">
-          <div class="tableau">
+        <div class="prestation">
             <form method="post" action="formulaire.php">
-            <label for="presta-select">Choisissez votre préstations :</label><br >
+            <label class="choix" for="presta-select">Choisissez votre préstations :</label><br>
             <select name="presta" id="presta" required>
               <option value="">choix</option>
-              <option value="">choix</option>
-              <option value="">choix</option>
-              <option value="">choix</option>
-              <option value="">choix</option>
-              <option value="">choix</option>
-            </select><br>
-            <input type="submit" value="Valider" />
+              <option value="">Barbes 20€</option>
+              <option value="">Taille de barbe + shp 25€</option>
+              <option value="">Taille de barbe + shp + soin 35€</option>
+              <option value="">Coupe de cheveux 25€</option>
+              <option value="">Coupe de cheveux + barbe 40€</option>
+              <option value="">Coupe de cheveux + barbe + soin 55€</option>
+            </select>
             </form>
           </div>
-        </div>
         <div class="trait1"></div>
-        
+
+        <div class="calendrier">
+          <h4 class="moment">Choisissez votre moment :</h4>
+          <div class="wrapper">
+            <header>
+              <p class="current-date"></p>
+              <div class="icons">
+                <span id="prev" class="material-symbols-rounded">chevron_left</span>
+                <span id="next" class="material-symbols-rounded">chevron_right</span>
+              </div>
+            </header>
+            <div class="calendar">
+              <ul class="weeks">
+                <li>Dim</li>
+                <li>Lun</li>
+                <li>Mar</li>
+                <li>Mer</li>
+                <li>Jeu</li>
+                <li>Ven</li>
+                <li>Sam</li>
+              </ul>
+              <ul class="days"></ul>
+            </div>
+          </div><br>
+          <div class="valid">
+          <a class="valider" href="./priserdvsuite.html">Valider</a>
+        </div>
+        </div>
+
       </main>
   
-      <div class="trait"></div>
+      <div class="trait2"></div>
   
       <footer class="footer1">
         <ul class="adress">
@@ -89,6 +117,7 @@
             <a href="/priserdv.html" class=""> Prendre RDV </a>
           </div>
       </footer>
-    
+
+      <script src="./js/script.js"></script>
 </body>
 </html>
