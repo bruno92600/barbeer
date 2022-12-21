@@ -177,6 +177,7 @@
         width: 85%;
         opacity: 0.3;
         margin-top: 15px;
+        margin-bottom: 15px;
      }
 
      .titre2 {
@@ -194,11 +195,23 @@
         margin-bottom: 3%;
      }
 
+     .date {
+      text-align: center;
+      font-size: 20px;
+     }
+
+     .bien {
+      text-align: center;
+      margin-top: 25px;
+      font-size: 40px;
+      font-family: 'Oooh Baby', cursive;
+     }
      /* footer */
 
-    .footer {
+    .footer1 {
         display: flex;
         justify-content: space-between;
+        justify-content: center;
         margin-bottom: 20px;
         margin-left: 15px;
         margin-right: 15px;
